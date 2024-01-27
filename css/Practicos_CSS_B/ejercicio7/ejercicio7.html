@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <style>
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .caja-comentarios {
+
+            width: 35%;
+        }
+
+        .comentario {
+            display: flex;
+
+        }
+
+        .img-comentario {
+            width: 56;
+
+        }
+
+        .img-usuario {
+            width: 40px;
+            height: 40px;
+            border-radius: 60%;
+            padding: 5px;
+        }
+
+        .tamanio-mg {
+            width: 13px;
+            height: 13px;
+            padding: 4px;
+
+        }
+
+        .cuerpo-comentario p {
+            margin: 5px;
+        }
+
+        .cuerpo-comentario p span {
+            color: #AAAAAA;
+        }
+
+        .interaccion-comentario {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+
+        .interaccion-comentario p {
+            font-size: 12px;
+            padding: 4px;
+            position: relative;
+        }
+
+        .rtas-display {
+            display: flex;
+            align-items: center;
+        }
+
+        .rtas-display p {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .position {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .img-autor {
+            width: 15px;
+            height: 15px;
+            border-radius: 60px;
+            margin-left: 15px;
+
+        }
+
+        /* .bajar{
+            margin-top: 20px;
+            margin-left: 5px;
+        }*/
+        .corazon {
+            position: absolute;
+            top: 2px;
+            right: -3px;
+        }
+
+        .tamanio-corazon {
+            width: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="caja-comentarios">
+        <div class="comentario">
+            <div class="img-comentario">
+                <img class="img-usuario" src="letrac.jpg" alt="">
+            </div>
+            <div class="cuerpo-comentario">
+                <p>cinthia t <span>Hace 3 meses</span></p>
+                <p>solo quiero decir que TE AMOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!! </p>
+                <div class="interaccion-comentario">
+                    <p>RESPONDER</p>
+                    <p>4</p>
+                    <img class="tamanio-mg " src="me-gusta.png" alt="">
+                    <img class="tamanio-mg" src="no-me-gusta.png" alt="">
+                    <div class="position">
+                        <img class="img-autor"
+                            src="el-sol-al-amanecer-entre-las-nubes_5120x2880_xtrafondos.com.jpg" alt="">
+                        <div class="corazon">
+                            <img class="tamanio-corazon" src="corazon.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="rtas-display">
+                    <p>Ver las 2 respuestas</p>
+                    <img class="tamanio-mg bajar" src="flecha-hacia-abajo-para-navegar.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="comentario">
+            <div class="img-comentario">
+                <img class="img-usuario" src="letrac.jpg" alt="">
+            </div>
+            <div class="cuerpo-comentario">
+                <p>Héctor Silva Arancibia <span>Hace 1 meses</span></p>
+                <p>buenas pero dejas muy poco de cada tema, saludos </p>
+                <div class="interaccion-comentario">
+                    <p>RESPONDER</p>
+                    <p>3</p>
+                    <img class="tamanio-mg " src="me-gusta.png" alt="">
+                    <img class="tamanio-mg" src="no-me-gusta.png" alt="">
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="comentario">
+            <div class="img-comentario">
+                <img class="img-usuario" src="letrac.jpg" alt="">
+            </div>
+            <div class="cuerpo-comentario">
+                <p>Brian Carrasco <span>Hace 2 meses</span></p>
+                <p>Super bueno el classi proyect este a esta hora compartiendo con mi madre los grandes exitos de este
+                    mix </p>
+                <div class="interaccion-comentario">
+                    <p>RESPONDER</p>
+
+                    <img class="tamanio-mg " src="me-gusta.png" alt="">
+                    <img class="tamanio-mg" src="no-me-gusta.png" alt="">
+                    <div class="position">
+                        <img class="img-autor"
+                            src="el-sol-al-amanecer-entre-las-nubes_5120x2880_xtrafondos.com.jpg" alt="">
+                        <div class="corazon">
+                            <img class="tamanio-corazon" src="corazon.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="comentario">
+            <div class="img-comentario">
+                <img class="img-usuario" src="letrac.jpg" alt="">
+            </div>
+            <div class="cuerpo-comentario">
+                <p>fabian gaete <span>Hace 3 meses</span></p>
+                <p>este proyecto lo compre hace como 11 años atras,es de Nicolas Escobar el hizo todos los classic proyect </p>
+                <div class="interaccion-comentario">
+                    <p>RESPONDER</p>
+                    <p>4</p>
+                    <img class="tamanio-mg " src="me-gusta.png" alt="">
+                    <img class="tamanio-mg" src="no-me-gusta.png" alt="">
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
